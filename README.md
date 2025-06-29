@@ -141,7 +141,8 @@ PureStream_App/
 ### Composants Principaux
 
 #### 1. Page d'Accueil
-*[CAPTURE D'ÉCRAN REQUISE : Page d'accueil avec navigation et contenu principal]*
+![Accueil et recommandations](https://github.com/user-attachments/assets/8cd6e616-95a9-4b7b-b667-bf2f26afc843)
+
 - Vue d'ensemble des contenus populaires
 - Recommandations personnalisées
 - Accès rapide aux playlists récentes
@@ -566,21 +567,6 @@ L'équipe de développement, composée de Michel Arold (Backend) et Germain (Fro
 
 Le projet démontre une maîtrise complète des technologies modernes de développement web et constitue une base solide pour une application de streaming musical professionnelle.
 
----
-
-## Annexes
-
-### A. Installation et Configuration
-Voir les fichiers `README.md` dans les dossiers frontend et backend pour les instructions détaillées.
-
-### B. Documentation API
-Voir le fichier `DATABASE_STRUCTURE.md` pour la documentation complète de l'API.
-
-### C. Plan de Continuité
-Voir le fichier `PRA_PCA_PURESTREAM.md` pour les procédures de reprise d'activité.
-
-### D. Guide de Test
-Voir les fichiers `PHASE1_TEST_GUIDE.md` et `TEST_GUIDE.md` pour les procédures de test.
 
 ---
 
