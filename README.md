@@ -455,44 +455,8 @@ CMD ["npm", "start"]
 - **Documentation** : Maintenue en continu
 - **Tests** : Intégration continue
 
-#### Répartition des Tâches
-
-```
-Phase 1 - Architecture (Semaines 1-2)
-├── Arold: Setup backend, modèles de données
-└── Germain: Setup frontend, structure composants
-
-Phase 2 - Développement Core (Semaines 3-6)
-├── Arold: API REST, authentification, upload
-└── Germain: Composants UI, services, intégration
-
-Phase 3 - Intégration (Semaines 7-8)
-├── Arold: Tests backend, optimisations
-└── Germain: Tests frontend, polish UI
-
-Phase 4 - Déploiement (Semaines 9-10)
-├── Arold: Configuration production, monitoring
-└── Germain: Build production, documentation utilisateur
-```
-
 ---
 
-## Statistiques du Projet
-
-### Métriques de Code
-- **Lignes de code Frontend** : ~15,000 lignes TypeScript/HTML/SCSS
-- **Lignes de code Backend** : ~8,000 lignes JavaScript
-- **Nombre de composants Angular** : 12 composants principaux
-- **Nombre d'endpoints API** : 25 routes REST
-- **Couverture de tests** : 85%
-
-### Performance Actuelle
-- **Temps de chargement initial** : < 3 secondes
-- **Temps de réponse API** : < 200ms moyenne
-- **Taille du bundle** : Optimisée
-- **Support navigateurs** : Chrome, Firefox, Safari, Edge
-
-### Fonctionnalités Implémentées
 - ✅ Authentification complète (JWT)
 - ✅ Lecture audio avec Howler.js
 - ✅ Upload de fichiers multiples
@@ -510,21 +474,6 @@ Phase 4 - Déploiement (Semaines 9-10)
 - **Tous les fichiers** accessibles via l'API
 
 ---
-
-## Captures d'Écran et Démonstration
-
-### Instructions pour les Captures d'Écran
-
-Pour compléter ce document, les captures d'écran suivantes doivent être prises :
-
-1. **Page d'Accueil** : Interface principale avec navigation
-2. **Page de Recherche** : Grille des musiques avec cartes
-3. **Player Audio** : Contrôles de lecture en action
-4. **Modal de Playlist** : Interface de création de playlist
-5. **Page d'Upload** : Interface d'upload avec progression
-6. **Page Bibliothèque** : Organisation des contenus
-7. **Interface Mobile** : Version responsive
-8. **Console Développeur** : API en action
 
 ### Procédure de Démonstration
 
