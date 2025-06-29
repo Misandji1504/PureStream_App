@@ -388,40 +388,9 @@ db.playlists.createIndex({ owner: 1, createdAt: -1 });
 ### Environnements
 
 #### Développement
-- **Frontend** : `ng serve` sur port 4200
-- **Backend** : `nodemon` sur port 3000
-- **Base de données** : MongoDB local
-
-#### Production (Recommandations)
-- **Frontend** : Build optimisé avec `ng build --prod`
-- **Backend** : PM2 pour la gestion des processus
-- **Base de données** : MongoDB Atlas (cloud)
-- **CDN** : Distribution des assets statiques
-
-### Configuration Docker
-
-#### Dockerfile Frontend
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-RUN npm run build --prod
-EXPOSE 4200
-CMD ["npm", "start"]
-```
-
-#### Dockerfile Backend
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-EXPOSE 3000
-CMD ["npm", "start"]
-```
+- **Frontend** : `npm start` sur port 4200
+- **Backend** : `npm start` sur port 3000
+- **Base de données** : MongoDB Atlas
 
 ---
 
@@ -447,25 +416,8 @@ CMD ["npm", "start"]
   - Optimisation des performances frontend
   - Tests et validation côté client
 
-### Méthodologie de Travail
-
-#### Gestion de Projet
-- **Versioning** : Git avec branches feature
-- **Communication** : Réunions hebdomadaires
-- **Documentation** : Maintenue en continu
-- **Tests** : Intégration continue
 
 ---
-
-- ✅ Authentification complète (JWT)
-- ✅ Lecture audio avec Howler.js
-- ✅ Upload de fichiers multiples
-- ✅ Gestion des playlists
-- ✅ Système de favoris
-- ✅ Recherche avancée
-- ✅ Interface responsive
-- ✅ API REST complète
-- ✅ Base de données synchronisée
 
 ### État Actuel de la Base de Données
 - **9 chansons** disponibles
