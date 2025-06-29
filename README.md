@@ -363,28 +363,6 @@ db.playlists.createIndex({ owner: 1, createdAt: -1 });
 
 ---
 
-## Équipe et Répartition
-
-### Membres de l'Équipe
-
-#### Sandje Moudindo Michel Arold
-- **Rôle Principal** : Développeur Backend & Architecte Base de Données
-- **Responsabilités** :
-  - Architecture et développement de l'API REST
-  - Conception et optimisation de la base de données MongoDB
-  - Implémentation de la sécurité et authentification
-  - Gestion des uploads et du stockage des fichiers
-  - Tests et validation côté serveur
-
-#### Ondoa Bekono Germain
-- **Rôle Principal** : Développeur Frontend & Designer UI/UX
-- **Responsabilités** :
-  - Développement de l'interface utilisateur Angular
-  - Intégration des services et APIs
-  - Design responsive et expérience utilisateur
-  - Optimisation des performances frontend
-  - Tests et validation côté client
-
 
 ---
 
