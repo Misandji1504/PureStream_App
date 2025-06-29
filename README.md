@@ -316,37 +316,6 @@ db.playlists.createIndex({ owner: 1, createdAt: -1 });
 
 ---
 
-## Sécurité et Performance
-
-### Mesures de Sécurité
-
-#### Authentification
-- **Hachage des mots de passe** : bcrypt avec salt
-- **JWT sécurisés** : Tokens avec expiration
-- **Validation des entrées** : Sanitisation côté serveur
-- **Protection CSRF** : Tokens anti-forgery
-
-#### Autorisation
-- **Middleware d'autorisation** : Vérification des permissions
-- **Propriété des ressources** : Validation de la propriété
-- **Rôles utilisateur** : Système de permissions granulaires
-
-### Optimisations Performance
-
-#### Frontend
-- **Lazy Loading** : Chargement à la demande
-- **Mise en cache** : Cache des requêtes API
-- **Optimisation des images** : Compression et formats adaptatifs
-- **Bundle splitting** : Division du code pour le chargement
-
-#### Backend
-- **Mise en cache Redis** : Cache des requêtes fréquentes
-- **Compression gzip** : Réduction de la taille des réponses
-- **Pagination** : Limitation des résultats par page
-- **Index de base de données** : Optimisation des requêtes
-
----
-
 ## Tests et Validation
 
 ### Tests Fonctionnels Réalisés
