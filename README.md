@@ -7,10 +7,9 @@
 4. [Interface Utilisateur](#interface-utilisateur)
 5. [Backend et API](#backend-et-api)
 6. [Base de Données](#base-de-données)
-7. [Sécurité et Performance](#sécurité-et-performance)
-8. [Tests et Validation](#tests-et-validation)
-9. [Déploiement](#déploiement)
-10. [Équipe et Répartition](#équipe-et-répartition)
+7. [Tests et Validation](#tests-et-validation)
+8. [Déploiement](#déploiement)
+
 
 ---
 
