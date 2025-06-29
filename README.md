@@ -148,31 +148,36 @@ PureStream_App/
 - Accès rapide aux playlists récentes
 
 #### 2. Player Audio
-*[CAPTURE D'ÉCRAN REQUISE : Player audio avec contrôles]*
+![Lecteur de musique](https://github.com/user-attachments/assets/bcd8191d-90be-4bbf-937d-8c9701c06e0a)
+
 - Contrôles intuitifs
 - Visualisation de la progression
 - Informations sur la piste en cours
 
 #### 3. Bibliothèque Musicale
-*[CAPTURE D'ÉCRAN REQUISE : Page de recherche avec grille de musiques]*
+![Gestions des favoris](https://github.com/user-attachments/assets/2aa873bf-06f5-4def-90ac-f91533aae2b0)
+
 - Organisation par artiste, album, genre
 - Vues en grille et en liste
 - Fonctions de tri et filtrage
 
 #### 4. Création de Playlist
-*[CAPTURE D'ÉCRAN REQUISE : Modal de création de playlist]*
+![creation des playlists](https://github.com/user-attachments/assets/5e63453b-a062-49af-879c-730e4cb1794f)
+
 - Interface simple et efficace
 - Ajout par glisser-déposer
 - Prévisualisation en temps réel
 
 #### 5. Page de Recherche
-*[CAPTURE D'ÉCRAN REQUISE : Interface de recherche avec résultats]*
+![Recherche](https://github.com/user-attachments/assets/79a13b04-bf4a-45fd-a65e-d2591dc96e2b)
+
 - Barre de recherche responsive
 - Résultats catégorisés
 - Filtres avancés
 
 #### 6. Interface d'Upload
-*[CAPTURE D'ÉCRAN REQUISE : Page d'upload avec zone glisser-déposer]*
+![upload_choix de la musique](https://github.com/user-attachments/assets/6630760d-ff6c-4596-b2e3-97b4749d570d)
+
 - Zone de glisser-déposer
 - Barre de progression
 - Validation en temps réel
